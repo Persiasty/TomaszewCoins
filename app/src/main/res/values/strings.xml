@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimateProperty</string>
+    <string name="itn_text">Nazbierane ITN\'y:</string>
+    <string name="zero">0</string>
+</resources>
