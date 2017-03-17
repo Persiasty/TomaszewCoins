@@ -3,23 +3,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <LinearLayout
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp">
 
         <TextView
+            android:id="@+id/itn_static"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/itn_text"/>
+            android:text="@string/itn_text"
+            android:layout_alignParentStart="true"/>
 
         <TextView
             android:id="@+id/itn_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zero"/>
+            android:text="@string/zero"
+            android:layout_toEndOf="@id/itn_static"/>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/higscore_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/higscore_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/highscore_text"
+            android:layout_toStartOf="@id/higscore_count"
+            />
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_weight="1"
@@ -111,4 +132,15 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"/>
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/timeleft"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_drawable" />
+
 </LinearLayout>

@@ -1,19 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.examples.animateproperty"
-          android:versionCode="1"
-          android:versionName="1.0">
+          package="pl.com.knopers.tomaszewcoins">
 
     <application
         android:icon="@mipmap/ic_launcher"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:allowBackup="true">
         <activity
-            android:name="pl.com.knopers.FlipperActivity"
-            android:label="Flipper">
+            android:name="pl.com.knopers.tomaszewcoins.CoinsActivity"
+            android:label="Tomszew Coins">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

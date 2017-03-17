@@ -1,5 +1,14 @@
 <resources>
-    <string name="app_name">AnimateProperty</string>
-    <string name="itn_text">Nazbierane ITN\'y:</string>
+    <string name="app_name">Tomaszew Coins</string>
+    <string name="itn_text">ITN\'y:</string>
     <string name="zero">0</string>
+    <string name="highscore_text">High score:</string>
+    <string name="quit">Rage Quit</string>
+    <string name="nobody">Jeszcze nikt</string>
+    <string name="save">Zapisz</string>
+    <string name="lose">Niestety nie udało Ci się pobić rekordu. Za dużo ITN\'ów :&lt;</string>
+    <string name="again">Zagraj ponownie</string>
+    <string name="gz">Gratulacje !</string>
+    <string name="win">Własnie pobiłeś rekord!</string>
+    <string name="name_prompt">Podaj swoją godność...</string>
 </resources>
