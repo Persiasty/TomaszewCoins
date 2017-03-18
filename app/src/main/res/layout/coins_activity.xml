@@ -136,11 +136,12 @@
     <ProgressBar
         android:id="@+id/timeleft"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/progress_background"
         android:max="100"
-        android:progress="0"
+        android:progress="50"
         android:progressDrawable="@drawable/progress_drawable" />
 
 </LinearLayout>

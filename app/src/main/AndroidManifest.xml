@@ -6,7 +6,7 @@
         android:theme="@style/AppTheme"
         android:allowBackup="true">
         <activity
-            android:name="pl.com.knopers.tomaszewcoins.CoinsActivity"
+            android:name="pl.com.knopers.tomaszewcoins.Game.CoinsActivity"
             android:label="Tomszew Coins">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
