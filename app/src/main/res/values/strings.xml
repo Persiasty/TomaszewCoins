@@ -11,4 +11,7 @@
     <string name="gz">Gratulacje !</string>
     <string name="win">Własnie pobiłeś rekord!</string>
     <string name="name_prompt">Podaj swoją godność...</string>
+    <string name="play">Graj</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="exit">Wyjście</string>
 </resources>

@@ -2,7 +2,6 @@ package pl.com.knopers.tomaszewcoins.Game;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.ClipData;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -15,7 +14,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.util.Random;
-import java.util.Timer;
 
 import pl.com.knopers.tomaszewcoins.Components.AnimatedProgressBar;
 import pl.com.knopers.tomaszewcoins.Components.Coin;
@@ -80,7 +78,7 @@ public class CoinsActivity extends Activity
 	public void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.coins_activity);
+		setContentView(R.layout.activity_coins);
 
 		player = new PlayerInGame(this);
 		soundFx = new SoundFx(this);
@@ -203,8 +201,8 @@ public class CoinsActivity extends Activity
 								prefs.edit().putString("best-score", MxYor.get(bs, ba))
 										.putString("best-score-author", bestScoreAuthor)
 										.apply();
-								updateHud();
-								startup();
+
+								finish();
 							}
 						})
 						.setCancelable(false);
