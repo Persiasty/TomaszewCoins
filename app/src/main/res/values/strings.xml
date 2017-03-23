@@ -14,4 +14,21 @@
     <string name="play">Graj</string>
     <string name="tutorial">Tutorial</string>
     <string name="exit">Wyjście</string>
+    <string name="next">Dalej</string>
+    <string name="tutorial_tomaszew">To jest dr Tomaszewski</string>
+    <string name="tutorial_tomaszew_desc">Super wykładowca, posiadający dużą wiedzę na różnorakie tematy. \nZ natury trzyma ze studentami. \n\nJednak uważaj! \nJeśli będziesz mu zawracać niepotrzebnie głowę, możesz sporo za to zapłacić. \n\nErgo... \nKonieczność odbycia ITN\'a będzie nieunikniona.</string>
+    <string name="tutorial_itn" >Zagrożenie ITN\'em</string>
+    <string name="tutorial_itn_desc" >Jeśli pojawia się zagrożenie ITN\'em, to pół biedy. \nMożna go w prosty sposób uniknąć. Wystarczy się spiąć i zaliczyć przedmiot. \nNie przegap okazji i klikaj w pojawiające się ITN\'y.</string>
+    <string name="tutorial_tomaszew_again_desc" >Jeśli nie zdążysz zaliczyć przedmiotu, kiedy będziesz miał okazję to cóż, na Twoje konto trafia ITN :/</string>
+    <string name="tutorial_tomaszew_again" >O nie!</string>
+    <string name="tutorial_itn_count" >ITN\'y !!!</string>
+    <string name="tutorial_itn_count_desc" >Tu jest Twój licznik ITN\'ów. \nOczywiście im ich mniej, tym lepiej dla Ciebie i Twojego portfela.</string>
+    <string name="tutorial_highscore_desc" >Najlepiej jest ukończyć bez żadnego ITN\'a, ale wiadomo, każdemu może się noga powinąć. ;)</string>
+    <string name="tutorial_highscore" >Zdobądź najlepszy wynik</string>
+    <string name="tutorial_time" >Czas...</string>
+    <string name="tutorial_time_desc" >Czas przy programowaniu ucieka jak mysz kotu. \nZanim się obejrzysz skończy się semestr i nastąpi podsumowanie Twoich wyników.\nPostaraj się!</string>
+    <string name="tutorial_close">Zakończ</string>
+    <string name="tutorial_start">Witaj w grze!</string>
+    <string name="tutorial_start_desc">Jeśli nie wiesz co tu się robi, to dobrze trafiłeś. \nZaraz wszystko stanie się jasne jak słońce (albo jak świecąca dioda LED).</string>
+    <string name="start">Zaczynajmy!</string>
 </resources>

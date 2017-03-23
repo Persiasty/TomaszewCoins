@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import pl.com.knopers.tomaszewcoins.Game.CoinsActivity;
+import pl.com.knopers.tomaszewcoins.Tutorial.TutorialActivity;
 
 public class MainActivity extends Activity
 {
@@ -26,6 +27,8 @@ public class MainActivity extends Activity
 
 	public void tutorial(View view)
 	{
+		Intent playIntent = new Intent(this, TutorialActivity.class);
+		startActivity(playIntent);
 	}
 
 	public void exit(View view)

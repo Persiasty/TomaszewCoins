@@ -6,8 +6,10 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import pl.com.knopers.tomaszewcoins.Base.Playable;
 import pl.com.knopers.tomaszewcoins.Game.CoinsActivity;
 import pl.com.knopers.tomaszewcoins.Game.SoundFx;
 import pl.com.knopers.tomaszewcoins.R;
@@ -21,7 +23,7 @@ public class Coin implements View.OnTouchListener
 	private static Bitmap mHeadImage, mTailImage;
 
 	private ImageView item;
-	private CoinsActivity coinsActivity;
+	private Playable coinsActivity;
 	private ObjectAnimator mFlipper, mUnFlipper;
 	private boolean mIsHead, mClicked;
 
@@ -45,7 +47,7 @@ public class Coin implements View.OnTouchListener
 		}
 	};
 
-	public static Coin initCoin(CoinsActivity coinsActivity, ImageView item)
+	public static Coin initCoin(Playable coinsActivity, ImageView item)
 	{
 		if(mHeadImage == null)
 			mHeadImage = BitmapFactory.decodeResource(coinsActivity.getResources(), R.drawable.head);
@@ -56,7 +58,7 @@ public class Coin implements View.OnTouchListener
 		return new Coin(coinsActivity, item);
 	}
 
-	private Coin(CoinsActivity coinsActivity, ImageView item)
+	private Coin(Playable coinsActivity, ImageView item)
 	{
 		this.item = item;
 		this.coinsActivity = coinsActivity;
@@ -73,6 +75,11 @@ public class Coin implements View.OnTouchListener
 		mUnFlipper = ObjectAnimator.ofFloat(this.item, "rotationY", 180f, 360f);
 		mUnFlipper.setDuration(500);
 		mUnFlipper.addUpdateListener(unflipperListener);
+	}
+
+	public ImageView getView()
+	{
+		return item;
 	}
 
 	public void makeFlip()

@@ -9,4 +9,16 @@
         <item name="android:background">@drawable/main_button</item>
     </style>
 
+    <style name="TutorialStyle" parent="ShowcaseView">
+        <item name="sv_backgroundColor">#c82b2b2b</item>
+        <item name="sv_showcaseColor">#ffffff</item>
+        <item name="sv_buttonText">@string/start</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_titleTextAppearance">@style/TutorialStyleTitle</item>
+    </style>
+
+    <style name="TutorialStyleTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">#f70ce939</item>
+    </style>
+
 </resources>

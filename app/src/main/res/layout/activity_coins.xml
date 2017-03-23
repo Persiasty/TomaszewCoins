@@ -52,27 +52,27 @@
 
         <ImageView
             android:id="@+id/flip_image1"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image2"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image3"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
     </LinearLayout>
     <LinearLayout
         android:layout_weight="1"
@@ -82,27 +82,27 @@
 
         <ImageView
             android:id="@+id/flip_image4"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image5"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image6"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
     </LinearLayout>
     <LinearLayout
         android:layout_weight="1"
@@ -112,27 +112,27 @@
 
         <ImageView
             android:id="@+id/flip_image7"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image8"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
 
         <ImageView
             android:id="@+id/flip_image9"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
     </LinearLayout>
 
     <ProgressBar

@@ -27,4 +27,9 @@ public abstract class Player
 	{
 		iItn -= num;
 	}
+
+	public void reset()
+	{
+		iItn = 0;
+	}
 }

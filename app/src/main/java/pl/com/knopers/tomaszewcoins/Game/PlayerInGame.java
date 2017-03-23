@@ -2,6 +2,7 @@ package pl.com.knopers.tomaszewcoins.Game;
 
 import android.app.Activity;
 
+import pl.com.knopers.tomaszewcoins.Base.Playable;
 import pl.com.knopers.tomaszewcoins.Base.Player;
 
 /**
@@ -10,9 +11,9 @@ import pl.com.knopers.tomaszewcoins.Base.Player;
 
 public class PlayerInGame extends Player
 {
-	private CoinsActivity coinsActivity;
+	private Playable coinsActivity;
 
-	public PlayerInGame(CoinsActivity coinsActivity)
+	public PlayerInGame(Playable coinsActivity)
 	{
 		this.coinsActivity = coinsActivity;
 	}
@@ -29,10 +30,5 @@ public class PlayerInGame extends Player
 	{
 		super.reduceItn(num);
 		coinsActivity.updateHud();
-	}
-
-	public void reset()
-	{
-		iItn = 0;
 	}
 }

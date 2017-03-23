@@ -15,12 +15,13 @@ import android.widget.TextView;
 
 import java.util.Random;
 
+import pl.com.knopers.tomaszewcoins.Base.Playable;
 import pl.com.knopers.tomaszewcoins.Components.AnimatedProgressBar;
 import pl.com.knopers.tomaszewcoins.Components.Coin;
 import pl.com.knopers.tomaszewcoins.Utils.MxYor;
 import pl.com.knopers.tomaszewcoins.R;
 
-public class CoinsActivity extends Activity
+public class CoinsActivity extends Activity implements Playable
 {
 	private static final int TIMELEFT = 60;
 
@@ -148,6 +149,7 @@ public class CoinsActivity extends Activity
 		}
 	}
 
+	@Override
 	public void updateHud()
 	{
 		runOnUiThread(new Runnable()
@@ -165,11 +167,13 @@ public class CoinsActivity extends Activity
 		});
 	}
 
+	@Override
 	public PlayerInGame getPlayer()
 	{
 		return player;
 	}
 
+	@Override
 	public SoundFx getSoundFx()
 	{
 		return soundFx;

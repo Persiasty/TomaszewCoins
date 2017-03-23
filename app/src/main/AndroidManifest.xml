@@ -8,7 +8,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="Tomszew Coins">
+            android:label="Tomszew Coins"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Game.CoinsActivity"></activity>
+        <activity android:name=".Tutorial.TutorialActivity"></activity>
     </application>
 
 </manifest>
